@@ -1,0 +1,138 @@
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+html, body, input{height: 100%;}
+
+body, label{
+	font: normal 1.1em/1.5 'Quicksand', sans-serif;
+	color: #423142;
+	//background-color:  #000;
+ }
+label{
+  color: #fff;
+}
+.sign-up{
+  margin: auto;
+} 
+
+fieldset{
+  background-color: #423142;
+  width: 100%;
+  min-height: 120px;
+  padding: 20px;   
+}
+
+form {
+  /*margin-bottom: 10px;*/
+  border: none;
+  background-color: #292931; 
+  max-width: 440px;
+  min-height: 120px; 
+  padding: 30px; 
+}
+
+.submit  { 
+  margin: 0;
+  padding:15px;
+  padding-left:15px;
+  min-height: 70px;
+  position: relative;
+  background-color:  #292931;
+
+} 
+h1 { 
+    background: url("../img/colorful-bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    /*background-color: red;*/
+    height: 8px;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    top: 0;
+}
+
+
+
+/* Submit button */
+button{ 
+	background-color: inherit;
+	text-transform: uppercase; 
+	color:#625864;  
+    text-align: center;
+    text-decoration: none;
+    left: 100px; 
+    font-size: 25px;
+    font-weight: bold;
+}
+ 
+ button, .forgot{
+  display: inline-block; 
+  vertical-align: middle; 
+}
+
+button:hover, a.forgot:hover{ 
+	color: #ddd;
+}
+.forgot, .forgot:visited{
+	font-size: 14px; 
+  font-weight: bold;
+	position: absolute; 
+	color:#625864; 
+	right: 20px;
+	padding: 10px;
+}
+
+.forgot:hover{
+  font-style: italic;
+}
+
+/* profile icon */
+  span.icon{  
+    padding-top: 3px;
+    padding-left: 10px;  
+    width: 20px;
+    height: 22px;
+    margin-top: 3px; 
+    vertical-align: middle;
+ 
+  }
+   
+    span.icon::after{
+      display: block;
+      -webkit-background-size: 100%;
+      background-size: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;  vertical-align: middle; 
+  }
+     .form-control{ 
+      padding: 6px 12px; 
+      display: table-cell; 
+      width: 88%; 
+      float: right;
+      border-left: 1px solid #ddd;
+    }
+ 
+
+    .input-wrap{
+      margin-bottom: 5px; 
+      border-radius: 5px 0 0 5px;
+      display: table;
+      width: 100%;
+      background-color: #eee;
+      border:1px solid #ddd;
+
+    }
+
+    .icon-color{
+      color: #847384;
+    }
+
+    .icon-color:hover{
+      color: purple;
+    }
+ 
